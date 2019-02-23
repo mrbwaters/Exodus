@@ -3,7 +3,8 @@ import os
 from random import randint
 
 class Aurum(object):
-    """This class represents the system of Aurum."""
+    """This class represents the system of Aurum, the CWA governing system
+    within the Local Cluster"""
     def __init__(self):
         self.coord = [2, 2]
         self.punch_here = True
